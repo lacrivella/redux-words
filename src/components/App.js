@@ -10,7 +10,7 @@ export default function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/words/:cout" component={TopWords} />
+        <Route path="/words/:count" component={TopWords} />
         <Route exact path="/" component={TopWords} />
       </Switch>
     </Router>
