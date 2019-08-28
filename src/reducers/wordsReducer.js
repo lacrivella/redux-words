@@ -1,8 +1,8 @@
-import words from '../fixtures/words.json';
+import dictionary from '../fixtures/words.json';
 import { UPDATE_SEARCH_TERM } from '../actions/wordsActions';
 
 export const initialState = {
-  dictionary: [...words],
+  dictionary,
   searchTerm: ''
 };
 
